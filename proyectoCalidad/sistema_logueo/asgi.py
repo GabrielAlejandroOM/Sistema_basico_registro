@@ -14,3 +14,5 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sistema_logueo.settings')
 
 application = get_asgi_application()
+
+#DJANGO SOLO HACE LA APP, ESTA SECCION ES PARA EL DESPLIEGUE

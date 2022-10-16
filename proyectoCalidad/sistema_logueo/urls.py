@@ -17,5 +17,5 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls), #URL QUE LOS CLIENTES PUEDEN VISITAR (ESTO SOLO LO TOCO YO)
 ]
